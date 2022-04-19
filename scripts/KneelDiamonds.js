@@ -3,7 +3,7 @@ import { DiamondSizes } from "./DiamondSizes.js"
 import { JewelryStyles } from "./JewelryStyles.js"
 import { Orders } from "./Orders.js"
 import { Metals } from "./Metals.js"
-import { appState, postOrder } from "./database.js"
+import { appState, postOrder } from "./dataAccess.js"
 
 document.addEventListener(
     "click",
